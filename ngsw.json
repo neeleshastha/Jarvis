@@ -1,0 +1,79 @@
+{
+  "configVersion": 1,
+  "timestamp": 1772370152055,
+  "index": "/Jarvis/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Jarvis/favicon.ico",
+        "/Jarvis/index.html",
+        "/Jarvis/main-IMWVGMOS.js",
+        "/Jarvis/manifest.webmanifest",
+        "/Jarvis/polyfills-FFHMD2TL.js",
+        "/Jarvis/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Jarvis/icons/icon-128x128.png",
+        "/Jarvis/icons/icon-144x144.png",
+        "/Jarvis/icons/icon-152x152.png",
+        "/Jarvis/icons/icon-192x192.png",
+        "/Jarvis/icons/icon-384x384.png",
+        "/Jarvis/icons/icon-512x512.png",
+        "/Jarvis/icons/icon-72x72.png",
+        "/Jarvis/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Jarvis/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/Jarvis/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/Jarvis/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/Jarvis/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/Jarvis/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/Jarvis/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/Jarvis/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/Jarvis/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/Jarvis/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/Jarvis/index.html": "928c29394b8903957232e917e05972cd8c853770",
+    "/Jarvis/main-IMWVGMOS.js": "066c63685a7ed8d6f7b066f4454d644e1c1b4a93",
+    "/Jarvis/manifest.webmanifest": "de757127eed6325646d175dfaea148521e6f4508",
+    "/Jarvis/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/Jarvis/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
